@@ -1,57 +1,33 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-09-30
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Become familiar with the basic concepts of Amazon EC2 and virtual servers.
+* Learn at an introductory level about EC2 networking, security, pricing, and storage.
+* Recognize the purpose of Auto Scaling and load balancing in a typical AWS setup.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be completed this week:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ----- | ---------- | --------------- | ------------------ |
+| 2 | - Review the purpose of an EC2 instance <br> - Explore basic choices such as operating system, instance type, and storage | 30/09/2026 | 30/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Learn the basic purpose of Security Groups and Network ACLs <br> - Review how SSH and Remote Desktop are used to connect to instances | 01/10/2026 | 01/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Get an overview of On-Demand, Reserved Instances, and Spot Instances <br> - Learn what Auto Scaling and load balancing are used for | 02/10/2026 | 02/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Learn the basic purpose of Amazon EBS <br> - Explore attaching a volume and the role of snapshots in backups | 03/10/2026 | 03/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - **Practice:** Review the basic EC2 setup steps <br> - Observe instance settings and security rules <br> - Review the steps for attaching an EBS volume and creating a snapshot | 04/10/2026 | 04/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
+### Week 2 Learning Outcomes:
 
-### Week 2 Achievements:
+* Gained an introductory understanding of an EC2 instance as a virtual server.
+* Became familiar with some basic instance choices, including the operating system, instance type, and storage.
+* Learned the general purpose of Security Groups and Network ACLs, and recognized SSH and Remote Desktop as ways to connect to instances.
+* Became familiar with the basic differences between On-Demand, Reserved Instances, and Spot Instances.
+* Learned at a high level that Auto Scaling can adjust the number of instances and a load balancer can distribute incoming traffic.
+* Understood the basic role of EBS volumes and snapshots in storing and backing up data.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+These topics were studied at an introductory level; further practice is needed to configure and use them independently.

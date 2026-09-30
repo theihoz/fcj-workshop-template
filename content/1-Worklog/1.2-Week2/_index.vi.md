@@ -1,59 +1,35 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-09-30
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm quen với các khái niệm cơ bản về Amazon EC2 và máy chủ ảo.
+* Tìm hiểu ở mức nhập môn về mạng, bảo mật, định giá và lưu trữ của EC2.
+* Nhận biết mục đích của Auto Scaling và cân bằng tải trong một mô hình AWS thông thường.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Ôn lại mục đích của EC2 instance <br> - Tìm hiểu các lựa chọn cơ bản như hệ điều hành, loại instance và dung lượng lưu trữ | 30/09/2026 | 30/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu mục đích cơ bản của Security Group và Network ACL <br> - Tìm hiểu cách SSH và Remote Desktop được dùng để kết nối đến instance | 01/10/2026 | 01/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tìm hiểu tổng quan về On-Demand, Reserved Instances và Spot Instances <br> - Tìm hiểu Auto Scaling và cân bằng tải được dùng để làm gì | 02/10/2026 | 02/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Tìm hiểu mục đích cơ bản của Amazon EBS <br> - Tìm hiểu thao tác gắn volume và vai trò của snapshot trong sao lưu | 03/10/2026 | 03/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - **Thực hành:** Ôn lại các bước thiết lập EC2 cơ bản <br> - Quan sát cấu hình instance và các quy tắc bảo mật <br> - Tìm hiểu lại các bước gắn EBS volume và tạo snapshot | 04/10/2026 | 04/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
+### Kết quả tìm hiểu tuần 2:
 
-### Kết quả đạt được tuần 2:
+* Bước đầu hiểu EC2 instance là một máy chủ ảo.
+* Làm quen với một số lựa chọn cơ bản khi tạo instance, gồm hệ điều hành, loại instance và lưu trữ.
+* Biết mục đích chung của Security Group và Network ACL; nhận biết SSH và Remote Desktop là các cách kết nối đến instance.
+* Làm quen với sự khác nhau ở mức cơ bản giữa On-Demand, Reserved Instances và Spot Instances.
+* Hiểu khái quát Auto Scaling có thể điều chỉnh số lượng instance và bộ cân bằng tải có thể phân phối lưu lượng truy cập.
+* Biết vai trò cơ bản của EBS volume và snapshot trong lưu trữ, sao lưu dữ liệu.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+Các nội dung trên mới ở mức tìm hiểu nhập môn; cần thực hành thêm để có thể tự cấu hình và sử dụng thành thạo.
 
 
