@@ -10,7 +10,7 @@ Trang này tóm tắt công việc thực tập theo từng tuần, gồm các c
 
 **Tuần 1:** [Tìm hiểu các dịch vụ AWS cơ bản, tạo tài khoản, sử dụng AWS Console và CLI, thực hành nhập môn với EC2](1.1-week1/)
 
-**Tuần 2:** [Tìm hiểu nhập môn về EC2, bảo mật và kết nối đến instance, các hình thức định giá, mở rộng quy mô, cân bằng tải và EBS](1.2-week2/)
+**Tuần 2:** [Tìm hiểu nhập môn về Amazon CloudFront và Amazon S3 bucket](1.2-week2/)
 
 **Tuần 3:** Nội dung sẽ được cập nhật khi tiếp tục worklog. [Xem Tuần 3](1.3-week3/)
 

@@ -10,7 +10,7 @@ This page summarizes my internship work by week, including the topics studied an
 
 **Week 1:** [AWS service fundamentals, account setup, AWS Console and CLI, and introductory EC2 practice](1.1-week1/)
 
-**Week 2:** [Introductory topics in EC2, instance security and connectivity, pricing options, scaling, load balancing, and EBS](1.2-week2/)
+**Week 2:** [Introductory concepts in Amazon CloudFront and Amazon S3 buckets](1.2-week2/)
 
 **Week 3:** Details will be added as the worklog progresses. [Open Week 3](1.3-week3/)
 

@@ -42,9 +42,9 @@ brew install hugo
 Clone repository và di chuyển vào thư mục dự án:
 
 ```bash
-git clone <repository-url>
+git clone <repository-url>`~
 cd fcj-workshop-template
-```
+````
 
 Khởi động development server:
 

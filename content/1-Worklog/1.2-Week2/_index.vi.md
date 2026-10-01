@@ -8,28 +8,27 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-* Làm quen với các khái niệm cơ bản về Amazon EC2 và máy chủ ảo.
-* Tìm hiểu ở mức nhập môn về mạng, bảo mật, định giá và lưu trữ của EC2.
-* Nhận biết mục đích của Auto Scaling và cân bằng tải trong một mô hình AWS thông thường.
+* Làm quen với mục đích cơ bản của Amazon CloudFront và Amazon S3.
+* Tìm hiểu nhập môn về bucket, object của S3 và cách CloudFront phân phối nội dung.
+* Nhận biết ở mức khái quát mối liên hệ giữa CloudFront và nội dung lưu trong S3 bucket.
 
 ### Các công việc trong tuần:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Ôn lại mục đích của EC2 instance <br> - Tìm hiểu các lựa chọn cơ bản như hệ điều hành, loại instance và dung lượng lưu trữ | 30/09/2026 | 30/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu mục đích cơ bản của Security Group và Network ACL <br> - Tìm hiểu cách SSH và Remote Desktop được dùng để kết nối đến instance | 01/10/2026 | 01/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Tìm hiểu tổng quan về On-Demand, Reserved Instances và Spot Instances <br> - Tìm hiểu Auto Scaling và cân bằng tải được dùng để làm gì | 02/10/2026 | 02/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Tìm hiểu mục đích cơ bản của Amazon EBS <br> - Tìm hiểu thao tác gắn volume và vai trò của snapshot trong sao lưu | 03/10/2026 | 03/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Thực hành:** Ôn lại các bước thiết lập EC2 cơ bản <br> - Quan sát cấu hình instance và các quy tắc bảo mật <br> - Tìm hiểu lại các bước gắn EBS volume và tạo snapshot | 04/10/2026 | 04/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Tìm hiểu Amazon S3 được dùng để làm gì <br> - Nắm ý tưởng cơ bản về bucket và object | 30/09/2026 | 30/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Tìm hiểu Amazon CloudFront được dùng để làm gì <br> - Hiểu khái quát cách mạng phân phối nội dung hỗ trợ phân phối nội dung | 01/10/2026 | 01/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Ôn lại mối liên hệ cơ bản giữa CloudFront và S3 bucket <br> - Nhận biết S3 có thể là nguồn nội dung được phân phối qua CloudFront | 02/10/2026 | 02/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Tìm hiểu một số ví dụ cơ bản về nội dung có thể lưu trong S3 <br> - Tìm hiểu mục đích chung của bộ nhớ đệm trong CloudFront | 03/10/2026 | 03/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - **Thực hành:** Phác thảo luồng đơn giản để phân phối một tệp từ S3 bucket qua CloudFront <br> - Ôn lại vai trò cơ bản của từng dịch vụ | 04/10/2026 | 04/10/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả tìm hiểu tuần 2:
 
-* Bước đầu hiểu EC2 instance là một máy chủ ảo.
-* Làm quen với một số lựa chọn cơ bản khi tạo instance, gồm hệ điều hành, loại instance và lưu trữ.
-* Biết mục đích chung của Security Group và Network ACL; nhận biết SSH và Remote Desktop là các cách kết nối đến instance.
-* Làm quen với sự khác nhau ở mức cơ bản giữa On-Demand, Reserved Instances và Spot Instances.
-* Hiểu khái quát Auto Scaling có thể điều chỉnh số lượng instance và bộ cân bằng tải có thể phân phối lưu lượng truy cập.
-* Biết vai trò cơ bản của EBS volume và snapshot trong lưu trữ, sao lưu dữ liệu.
+* Bước đầu hiểu Amazon S3 là dịch vụ lưu trữ object trong các bucket.
+* Biết ở mức khái quát Amazon CloudFront hỗ trợ phân phối nội dung đến người dùng.
+* Nhận biết S3 bucket có thể làm nguồn cho nội dung được phân phối qua CloudFront.
+* Làm quen với ý tưởng cơ bản về bộ nhớ đệm và vai trò của nó trong phân phối nội dung.
+* Phác thảo được luồng phân phối nội dung đơn giản sử dụng S3 và CloudFront, chưa đi vào cấu hình nâng cao.
 
-Các nội dung trên mới ở mức tìm hiểu nhập môn; cần thực hành thêm để có thể tự cấu hình và sử dụng thành thạo.
+Các nội dung trên chỉ ở mức cơ bản, nhập môn; cần thực hành thêm để có thể tự cấu hình và sử dụng các dịch vụ.
 
 
