@@ -1,6 +1,6 @@
 ---
 title: "Nhật ký công việc"
-date: 2026-09-23
+date: 2026-10-05
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
@@ -12,7 +12,7 @@ Trang này tóm tắt công việc thực tập theo từng tuần, gồm các c
 
 **Tuần 2:** [Tìm hiểu nhập môn về Amazon CloudFront và Amazon S3 bucket](1.2-week2/)
 
-**Tuần 3:** Nội dung sẽ được cập nhật khi tiếp tục worklog. [Xem Tuần 3](1.3-week3/)
+**Tuần 3:** [EC2 cơ bản, IAM roles cho EC2, load balancing, Auto Scaling và giám sát CloudWatch](1.3-week3/)
 
 **Tuần 4:** Nội dung sẽ được cập nhật khi tiếp tục worklog. [Xem Tuần 4](1.4-week4/)
 

@@ -1,6 +1,6 @@
 ---
 title: "Worklog"
-date: 2026-09-23
+date: 2026-10-05
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
@@ -12,7 +12,7 @@ This page summarizes my internship work by week, including the topics studied an
 
 **Week 2:** [Introductory concepts in Amazon CloudFront and Amazon S3 buckets](1.2-week2/)
 
-**Week 3:** Details will be added as the worklog progresses. [Open Week 3](1.3-week3/)
+**Week 3:** [EC2 fundamentals, IAM roles for EC2, load balancing, Auto Scaling, and CloudWatch monitoring](1.3-week3/)
 
 **Week 4:** Details will be added as the worklog progresses. [Open Week 4](1.4-week4/)
 
