@@ -6,43 +6,48 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Objectives:
+### Week 1 Objectives
 
-* Connect and get acquainted with the members of First Cloud AI Journey.
-* Understand the basics of AWS services and how to use the AWS Console and CLI.
+Become familiar with the First Cloud AI Journey internship, AWS service categories, and resource management through the AWS Management Console and AWS CLI. Practice focuses on launching an EC2 instance, connecting over SSH, and identifying the components of a basic server.
 
-### Tasks to be completed this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ----- | ---------- | --------------- | ------------------ |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of the internship unit's rules and regulations | 23/09/2026 | 23/09/2026 | |
-| 3   | - Learn about AWS and its service categories <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... | 24/09/2026 | 25/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create an AWS Free Tier account <br> - Learn about the AWS Console and AWS CLI <br> - **Practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Install and configure AWS CLI <br>&emsp; + Learn how to use AWS CLI | 24/09/2026 | 25/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2 concepts: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Methods to SSH into EC2 <br> - Learn about Elastic IP | 25/09/2026 | 26/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume | 25/09/2026 | 26/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+### Weekly Tasks
 
-### Week 1 Achievements:
+| Session | Task | Start Date | Completion Date | Primary Material |
+| --- | --- | --- | --- | --- |
+| 1 | Meet FCAJ members, read the internship rules, and establish a way to record learning activities. | 23/09/2026 | 23/09/2026 | [First Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| 2 | Explore cloud computing and the compute, storage, networking, and database categories; identify the basic roles of EC2, S3, VPC, and RDS in an application. | 24/09/2026 | 25/09/2026 | [Explore AWS Services](https://cloudjourney.awsstudygroup.com/1-explore/) |
+| 3 | Create an AWS account and explore the Console; install AWS CLI, configure access and Region settings, and check the active account. | 24/09/2026 | 25/09/2026 | [Create an AWS Account](https://000001.awsstudygroup.com/) |
+| 4 | Study instances, AMIs, instance types, key pairs, security groups, EBS, and Elastic IP; read the server launch and SSH connection workflow. | 25/09/2026 | 26/09/2026 | [Getting Started with Amazon EC2](https://000004.awsstudygroup.com/) |
+| 5 | Launch an EC2 instance following the guide, connect over SSH, and attach an EBS volume; compare instance information in the Console and CLI. | 25/09/2026 | 26/09/2026 | [Getting Started with Amazon EC2](https://000004.awsstudygroup.com/) |
 
-* Understood what AWS is and familiarized myself with the main service categories:
-  * Compute
-  * Storage
-  * Networking
-  * Database
+### Learning and Practical Outcomes
 
-* Successfully created and configured an AWS Free Tier account.
-  * Gained an understanding of the basic functions and interface of the AWS Management Console
+#### Internship and Learning Approach
 
-* Installed and configured AWS CLI on my computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
+Became familiar with the team and internship rules. Learned to select service workshops from Cloud Journey, read prerequisites before practice, and record configuration steps for use when troubleshooting.
 
-* Used AWS CLI to perform basic operations such as:
+#### AWS Service Categories
 
-  * Check account and configuration information
-  * Retrieve the list of regions
-  * View EC2 services
-  * Create and manage key pairs
-  * Check information about running services
+Gained a basic understanding of EC2 for virtual servers, S3 for object storage, VPC for networking, and RDS for relational databases. Can identify a suitable service category for simple needs such as running an application, storing files, or keeping structured data.
 
-* Developed the ability to manage AWS resources through both the web console and the CLI at the same time.
----
+Recognize that resources are deployed in a selected Region and that the Region must be checked when locating resources in the Console or CLI. This understanding is sufficient to follow an introductory lab and read a simple system diagram.
+
+#### AWS Account and Management Console
+
+Created an AWS account and practiced finding services, opening resource pages, selecting a Region, and reading configuration details. Learned to check resource status after creation rather than relying only on the completion message.
+
+#### AWS CLI
+
+Installed and configured AWS CLI locally. Understand the purpose of credentials, the default Region, and profiles, and can check the active configuration before using resources.
+
+Used basic commands to inspect account information, Regions, EC2 instances, and key pairs. Can compare instance IDs, states, and IP addresses between the Console and CLI. Current practice covers individual commands with reference to the guide.
+
+#### Introductory EC2 Practice
+
+Can distinguish the role of an AMI, instance type, key pair, and security group. Understand that EBS provides attached storage and that an Elastic IP is a separately allocated public IPv4 address.
+
+Practiced launching an instance, connecting over SSH, and attaching an EBS volume. Know to review the IP address, username, key pair, and SSH access rule when checking a connection. Can use an EC2 server for a basic guided lab.
+
+### Supplementary Material
+
+* [AWS CLI — Initial Configuration](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html): reference for profiles, Regions, and authentication methods.

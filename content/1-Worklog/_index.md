@@ -1,33 +1,19 @@
 ---
 title: "Worklog"
-date: 2026-10-05
+date: 2026-10-12
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This page summarizes my internship work by week, including the topics studied and practical activities.
+This page summarizes learning and practice during the first four internship weeks. Each week covers objectives, tasks, references, and knowledge that can be applied at a basic level.
 
-**Week 1:** [AWS service fundamentals, account setup, AWS Console and CLI, and introductory EC2 practice](1.1-week1/)
+**Week 1:** [FCAJ orientation, AWS service categories, account setup, Console, CLI, and introductory EC2 practice](1.1-week1/)
 
-**Week 2:** [Introductory concepts in Amazon CloudFront and Amazon S3 buckets](1.2-week2/)
+**Week 2:** [S3, CloudFront, caching, and a sketch of the content delivery flow](1.2-week2/)
 
-**Week 3:** [EC2 fundamentals, IAM roles for EC2, load balancing, Auto Scaling, and CloudWatch monitoring](1.3-week3/)
+**Week 3:** [EC2 storage management, EBS snapshots, AMIs, IAM roles, and ALB load balancing](1.3-week3/)
 
-**Week 4:** [Study and practice with Amazon RDS, Amazon Lightsail, Amazon EC2 Auto Scaling, and Amazon CloudWatch](1.4-week4/)
+**Week 4:** [Planned learning and practice with RDS, Lightsail, EC2 Auto Scaling, and CloudWatch](1.4-week4/)
 
-**Week 5:** Details will be added as the worklog progresses. [Open Week 5](1.5-week5/)
-
-**Week 6:** Details will be added as the worklog progresses. [Open Week 6](1.6-week6/)
-
-**Week 7:** Details will be added as the worklog progresses. [Open Week 7](1.7-week7/)
-
-**Week 8:** Details will be added as the worklog progresses. [Open Week 8](1.8-week8/)
-
-**Week 9:** Details will be added as the worklog progresses. [Open Week 9](1.9-week9/)
-
-**Week 10:** Details will be added as the worklog progresses. [Open Week 10](1.10-week10/)
-
-**Week 11:** Details will be added as the worklog progresses. [Open Week 11](1.11-week11/)
-
-**Week 12:** Details will be added as the worklog progresses. [Open Week 12](1.12-week12/)
+Primary learning material comes from [First Cloud Journey](https://cloudjourney.awsstudygroup.com/), with AWS Documentation added by topic for configuration and concept reference.

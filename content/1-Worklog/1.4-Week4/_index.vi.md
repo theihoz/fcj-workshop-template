@@ -6,29 +6,53 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
+### Mục tiêu tuần 4
 
-* Tìm hiểu cách tạo cơ sở dữ liệu quan hệ bằng Amazon RDS và kết nối ứng dụng với cơ sở dữ liệu.
-* Tìm hiểu các cách triển khai ứng dụng trên Amazon Lightsail và tối ưu chi phí điện toán.
-* Thực hành mở rộng ứng dụng bằng Amazon EC2 Auto Scaling kết hợp với load balancer.
-* Tìm hiểu giám sát hệ thống bằng metrics, logs, alarms và dashboards của Amazon CloudWatch.
+Tìm hiểu Amazon RDS, Amazon Lightsail, Amazon EC2 Auto Scaling và Amazon CloudWatch qua các workshop của First Cloud Journey. Vận dụng phần EC2, IAM role và load balancer đã học để thực hành kết nối cơ sở dữ liệu, mở rộng ứng dụng và theo dõi hoạt động hệ thống.
 
-### Các công việc dự kiến trong tuần:
+### Kế hoạch học tập và thực hành
 
-Lịch dự kiến từ ngày 12–16/10/2026, tiếp nối Tuần 3. Ngày hoàn thành và kết quả thực tế sẽ được cập nhật sau khi thực hành.
+| Buổi | Công việc | Ngày bắt đầu dự kiến | Ngày hoàn thành dự kiến | Tài liệu chính |
+| --- | --- | --- | --- | --- |
+| 1 | Tìm hiểu RDS, database engine, DB instance và endpoint; chuẩn bị DB subnet group, cấu hình kết nối từ EC2, tạo cơ sở dữ liệu và kiểm tra sao lưu, khôi phục theo workshop. | 12/10/2026 | 12/10/2026 | [Tạo cơ sở dữ liệu với Amazon RDS](https://000005.awsstudygroup.com/) |
+| 2 | Tìm hiểu gói tài nguyên và blueprint của Lightsail; chọn một ứng dụng mẫu trong workshop để triển khai, cấu hình mạng, kiểm tra truy cập, tạo snapshot và đọc cách nâng cấp instance. | 13/10/2026 | 13/10/2026 | [Tối ưu chi phí với Amazon Lightsail](https://000045.awsstudygroup.com/) |
+| 3 | Tạo launch template và Auto Scaling Group; tích hợp với load balancer, đặt minimum, desired, maximum capacity; kiểm tra manual, scheduled và dynamic scaling, đọc phần predictive scaling. | 14/10/2026 | 14/10/2026 | [Mở rộng ứng dụng với EC2 Auto Scaling](https://000006.awsstudygroup.com/) |
+| 4 | Xem metrics, tìm hiểu log groups và log streams; thực hành Logs Insights, metric filters, alarms và dashboard; quan sát dữ liệu khi kiểm tra hoạt động của ứng dụng và scaling. | 15/10/2026 | 15/10/2026 | [Giám sát hệ thống với CloudWatch](https://000008.awsstudygroup.com/) |
+| 5 | Tổng hợp cấu hình, cách kiểm tra và kết quả quan sát của từng bài; giải thích vai trò của bốn dịch vụ, dọn tài nguyên theo hướng dẫn và kiểm tra tài nguyên còn lại. | 16/10/2026 | 16/10/2026 | [Khám phá các dịch vụ AWS](https://cloudjourney.awsstudygroup.com/1-explore/) |
 
-| Thứ | Công việc | Ngày bắt đầu dự kiến | Ngày hoàn thành dự kiến | Tài liệu học tập |
-| --- | --------- | ------------------- | ----------------------- | ---------------- |
-| 2 | - Tìm hiểu các thành phần của RDS <br> - **Thực hành:** Chuẩn bị VPC, security groups và DB subnet group; tạo cơ sở dữ liệu RDS và kết nối ứng dụng trên EC2 <br> - Tìm hiểu sao lưu và khôi phục | 12/10/2026 | 12/10/2026 | https://000005.awsstudygroup.com/ |
-| 3 | - Tìm hiểu Lightsail instances, blueprints và gói tài nguyên <br> - **Thực hành:** Triển khai ứng dụng mẫu theo workshop, cấu hình mạng và tạo snapshot <br> - Tìm hiểu nâng cấp instance, alarms và các yếu tố chi phí | 13/10/2026 | 13/10/2026 | https://000045.awsstudygroup.com/ |
-| 4 | - Ôn lại launch templates, target groups, load balancers và các mức dung lượng của Auto Scaling Group <br> - **Thực hành:** Tạo Auto Scaling Group và kết nối với load balancer <br> - Kiểm tra manual, scheduled và dynamic scaling; tìm hiểu metrics của predictive scaling | 14/10/2026 | 14/10/2026 | https://000006.awsstudygroup.com/ |
-| 5 | - Tìm hiểu CloudWatch metrics và logs <br> - **Thực hành:** Phân tích log bằng Logs Insights, tìm hiểu metric filters, cấu hình alarm và dashboard <br> - Quan sát metrics của tài nguyên khi kiểm tra scaling | 15/10/2026 | 15/10/2026 | https://000008.awsstudygroup.com/ |
-| 6 | - Ôn lại vai trò của bốn dịch vụ <br> - Tổng hợp các bước thực hành, quan sát và vấn đề gặp phải <br> - Dọn tài nguyên theo từng workshop và kiểm tra tài nguyên còn lại | 16/10/2026 | 16/10/2026 | https://cloudjourney.awsstudygroup.com/1-explore/ |
+### Kiến thức và kỹ năng dự kiến đạt được
 
-### Kết quả dự kiến tuần 4:
+#### Amazon RDS
 
-* **Amazon RDS:** Hiểu quy trình tạo cơ sở dữ liệu, kết nối ứng dụng, sao lưu và khôi phục dữ liệu.
-* **Amazon Lightsail:** Hiểu cách triển khai ứng dụng nhỏ, cấu hình mạng, sử dụng snapshots và cân nhắc chi phí khi chọn hoặc nâng cấp gói tài nguyên.
-* **Amazon EC2 Auto Scaling:** Hiểu launch templates, các mức dung lượng, tích hợp load balancer và cách scaling phản ứng khi tải thay đổi.
-* **Amazon CloudWatch:** Biết cách xem metrics, truy vấn logs và sử dụng alarms, dashboards để giám sát tài nguyên.
-* **Ghi chép thực hành:** Ghi lại các bước cấu hình, quan sát khi kiểm tra, vấn đề gặp phải và cách dọn tài nguyên để ôn tập.
+Hiểu vai trò của dịch vụ cơ sở dữ liệu quan hệ được quản lý và phân biệt database engine, DB instance, endpoint, cổng kết nối. Biết các phần cần chuẩn bị để ứng dụng trên EC2 kết nối được với cơ sở dữ liệu, gồm mạng, security groups và thông tin đăng nhập.
+
+Thực hành tạo DB instance theo workshop, lấy endpoint và kiểm tra kết nối từ ứng dụng. Khi kết nối không thành công, có thể kiểm tra trạng thái database, endpoint, cổng và quy tắc mạng theo trình tự. Tìm hiểu cách sao lưu, tạo snapshot và khôi phục dữ liệu trong phạm vi bài lab.
+
+#### Amazon Lightsail
+
+Hiểu cách Lightsail cung cấp gói tài nguyên và các blueprint để triển khai máy chủ hoặc ứng dụng. Biết xem tài nguyên của gói, phạm vi sử dụng và các thành phần có thể phát sinh chi phí trước khi lựa chọn.
+
+Thực hành triển khai một ứng dụng mẫu, kiểm tra cấu hình mạng và truy cập từ trình duyệt. Tìm hiểu snapshot và quy trình tạo instance lớn hơn từ snapshot để nâng cấp tài nguyên. Có thể giải thích khi nào cách triển khai đơn giản của Lightsail phù hợp với một website hoặc ứng dụng nhỏ.
+
+#### Amazon EC2 Auto Scaling
+
+Hiểu launch template lưu các thiết lập khởi chạy, còn Auto Scaling Group quản lý số lượng instance theo minimum, desired và maximum capacity. Phân biệt việc load balancer phân phối yêu cầu với việc Auto Scaling tăng hoặc giảm số lượng máy chủ.
+
+Thực hành tích hợp Auto Scaling Group với load balancer, thay đổi desired capacity và kiểm tra instance mới được đăng ký vào target group. Tiếp tục kiểm tra scheduled và dynamic scaling theo workshop, xem lịch sử hoạt động để xác định thời điểm tăng hoặc giảm instance. Phần predictive scaling tập trung vào đọc cơ chế và metrics được giới thiệu trong tài liệu.
+
+#### Amazon CloudWatch
+
+Phân biệt metrics dùng theo dõi các chỉ số, logs ghi nhận sự kiện, alarms đánh giá điều kiện cảnh báo và dashboards tổng hợp thông tin. Biết lựa chọn khoảng thời gian và tài nguyên khi xem dữ liệu để tránh đọc nhầm biểu đồ.
+
+Thực hành truy vấn log bằng Logs Insights, tìm hiểu chuyển mẫu log thành metric bằng metric filter, cấu hình alarm và tạo dashboard. Kết hợp quan sát metrics với lịch sử scaling để giải thích thay đổi của tải và số lượng instance trong bài lab.
+
+#### Tổng hợp và kiểm tra bài thực hành
+
+Ghi lại các thiết lập chính, cách kiểm tra thành công và cách xử lý vấn đề gặp phải. Sau mỗi workshop, thực hiện dọn tài nguyên và kiểm tra những thành phần còn tồn tại như snapshots hoặc tài nguyên lưu trữ. Mục tiêu là thực hiện được cấu hình cơ bản theo tài liệu và giải thích được kết quả quan sát.
+
+### Tài liệu bổ sung
+
+* [Amazon RDS — Bắt đầu sử dụng](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html): tra cứu tạo và kết nối DB instance.
+* [Amazon Lightsail — Tổng quan](https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html): tra cứu gói dịch vụ và các thành phần.
+* [EC2 Auto Scaling — Giới hạn dung lượng](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-capacity-limits.html): tra cứu minimum, desired và maximum capacity.
+* [Amazon CloudWatch — Tổng quan](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html): tra cứu các chức năng giám sát cơ bản.
