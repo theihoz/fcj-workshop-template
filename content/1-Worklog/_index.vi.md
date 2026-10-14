@@ -14,7 +14,7 @@ Trang này tóm tắt công việc thực tập theo từng tuần, gồm các c
 
 **Tuần 3:** [EC2 cơ bản, IAM roles cho EC2, load balancing, Auto Scaling và giám sát CloudWatch](1.3-week3/)
 
-**Tuần 4:** Nội dung sẽ được cập nhật khi tiếp tục worklog. [Xem Tuần 4](1.4-week4/)
+**Tuần 4:** [Kế hoạch tìm hiểu và thực hành Amazon RDS, Amazon Lightsail, Amazon EC2 Auto Scaling và Amazon CloudWatch](1.4-week4/)
 
 **Tuần 5:** Nội dung sẽ được cập nhật khi tiếp tục worklog. [Xem Tuần 5](1.5-week5/)
 

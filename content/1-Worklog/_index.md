@@ -14,7 +14,7 @@ This page summarizes my internship work by week, including the topics studied an
 
 **Week 3:** [EC2 fundamentals, IAM roles for EC2, load balancing, Auto Scaling, and CloudWatch monitoring](1.3-week3/)
 
-**Week 4:** Details will be added as the worklog progresses. [Open Week 4](1.4-week4/)
+**Week 4:** [Study and practice with Amazon RDS, Amazon Lightsail, Amazon EC2 Auto Scaling, and Amazon CloudWatch](1.4-week4/)
 
 **Week 5:** Details will be added as the worklog progresses. [Open Week 5](1.5-week5/)
 
